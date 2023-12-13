@@ -26,7 +26,7 @@ Chashnikov S.Y.
 
 Либо по отдельности pip install transformers pip install sacremoses pip install streamlit pip install torch pip install watchdog - отслеживает изменение в коде и автоматически перезапускает его(Не обязательно ни как не влияет на работу приложения)
 
-запуск приложение можно из терминала командой: streamlit run Fast.py
+запуск приложение можно из терминала командой: streamlit run fast.py
 
 Инструкция Chashnikov.py
 
