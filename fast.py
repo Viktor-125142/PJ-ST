@@ -1,3 +1,5 @@
+"""Streamlit не смог запустить в облаке app сильно тяжолое"""
+
 import streamlit as st
 from transformers import FSMTForConditionalGeneration, FSMTTokenizer
 
