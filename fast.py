@@ -1,4 +1,5 @@
-"""Streamlit не смог запустить в облаке app сильно тяжолое"""
+"""Streamlit не смог запустить в облаке
+app сильно тяжолое"""
 
 import streamlit as st
 from transformers import FSMTForConditionalGeneration, FSMTTokenizer
@@ -20,8 +21,10 @@ def generate_translation(input_text):
 # Веб-приложение с использованием Streamlit
 st.title("Перевод текста с Русского на Английский")
 
-# Получение входного текста от пользователя
-input_text = st.text_input("Введите текст для перевода:", "Это твоя первая программа?")
+# Получение входного текста
+# от пользователя
+input_text = st.text_input('Введите текст для перевода:',
+                           'Это твоя первая программа?')
 
 # Генерация перевода при нажатии кнопки
 if st.button("Перевести"):
