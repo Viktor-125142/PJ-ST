@@ -9,7 +9,7 @@ client = TestClient(fast_viktor.app)
 def test_fas():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {"messege": "hello world"}
+    assert response.json() == {"message": "hello world"}
 
 
 def test_read_predict():
